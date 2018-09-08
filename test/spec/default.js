@@ -1,21 +1,17 @@
-import { equal, ok } from 'zoroaster/assert'
+import { ok } from 'zoroaster/assert'
 import Context from '../context'
-import svag from '../../src'
+import { Window } from '../../src'
 
 /** @type {Object.<string, (c: Context)>} */
 const T = {
   context: Context,
-  'is a function'() {
-    equal(typeof svag, 'function')
-  },
-  async 'calls package without error'() {
-    await svag()
-  },
-  async 'gets a link to the fixture'({ FIXTURE }) {
-    const res = await svag({
-      type: FIXTURE,
+  'exports a window'() {
+    const res = Window({
+      content: '<test/>',
+      width: 100,
+      height: 100,
     })
-    ok(res, FIXTURE)
+    ok(typeof res, 'string')
   },
 }
 

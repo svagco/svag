@@ -1,7 +1,8 @@
 
 ## TODO
 
-- [ ] Add a new item to the todo list.
+- [ ] Fix imported SVGs to be displayed on npm for all packages.
+- [ ] Add types to the list of exported files so that they can be required here.
 
 ## Copyright
 

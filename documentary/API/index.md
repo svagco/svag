@@ -1,21 +1,23 @@
 
 ## API
 
-The package is available by importing its default function:
+The package is available by importing its named exports.
 
 ```js
-import svag from '@svag/svag'
+import {
+  Window,
+  Shadow,
+  Toolbar,
+  lib,
+} from 'svag'
 ```
 
-```### svag
+```## Window
 [
-  ["arg1", "string"],
-  ["arg2?", "boolean"]
+  ["options", "WindowOptions"]
 ]
 ```
 
-Call this function to get the result you want.
+Creates a [`@svag/window`](https://github.com/svagco/window).
 
-%EXAMPLE: example/example.js, ../src => @svag/svag%
-
-%FORK example example/example%
+<img src="https://raw.github.com/svagco/svag/master/images/window.svg?sanitize=true">

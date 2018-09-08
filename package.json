@@ -1,5 +1,5 @@
 {
-  "name": "@svag/svag",
+  "name": "svag",
   "version": "0.0.0",
   "description": "The ultimate collection of SVaG elements.",
   "main": "build",
@@ -27,7 +27,31 @@
   },
   "keywords": [
     "svag",
-    "svag"
+    "svg",
+    "generation",
+    "image",
+    "web",
+    "png",
+    "jpeg",
+    "gif",
+    "vector",
+    "graphics",
+    "picture",
+    "terminal",
+    "chrome",
+    "safari",
+    "browser",
+    "mac",
+    "macOS",
+    "yosemite",
+    "sierra",
+    "el capitan",
+    "OS X",
+    "UI",
+    "interface",
+    "mockup",
+    "mock-up",
+    "wireframe"
   ],
   "author": "Anton <anton@adc.sh>",
   "license": "MIT",
@@ -41,5 +65,11 @@
     "eslint-config-artdeco": "1.0.1",
     "yarn-s": "1.1.0",
     "zoroaster": "3.0.3"
+  },
+  "dependencies": {
+    "@svag/lib": "1.0.0",
+    "@svag/shadow": "1.0.0",
+    "@svag/toolbar": "1.0.0",
+    "@svag/window": "1.0.0"
   }
 }

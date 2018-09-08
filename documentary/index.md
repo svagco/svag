@@ -1,11 +1,11 @@
-# @svag/svag
+# svag
 
-%NPM: @svag/svag%
+%NPM: svag%
 
-`@svag/svag` is The ultimate collection of SVaG elements.
+`svag` is the ultimate collection of [SVaG](https://svag.co) elements which can be used to create mockups of the UI by dynamically generating SVGs. It contains all packages from the `@svag` scope.
 
 ```sh
-yarn add -E @svag/svag
+yarn add -E svag
 ```
 
 ## Table Of Contents

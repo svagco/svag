@@ -1,45 +1,44 @@
-# @svag/svag
+# svag
 
-[![npm version](https://badge.fury.io/js/@svag/svag.svg)](https://npmjs.org/package/@svag/svag)
+[![npm version](https://badge.fury.io/js/svag.svg)](https://npmjs.org/package/svag)
 
-`@svag/svag` is The ultimate collection of SVaG elements.
+`svag` is the ultimate collection of [SVaG](https://svag.co) elements which can be used to create mockups of the UI by dynamically generating SVGs. It contains all packages from the `@svag` scope.
 
 ```sh
-yarn add -E @svag/svag
+yarn add -E svag
 ```
 
 ## Table Of Contents
 
 - [Table Of Contents](#table-of-contents)
 - [API](#api)
-  * [`svag(arg1: string, arg2?: boolean)`](#mynewpackagearg1-stringarg2-boolean-void)
+- [`Window(options: WindowOptions)`](#windowoptions-windowoptions-void)
 - [TODO](#todo)
 - [Copyright](#copyright)
 
 ## API
 
-The package is available by importing its default function:
+The package is available by importing its named exports.
 
 ```js
-import svag from '@svag/svag'
+import {
+  Window,
+  Shadow,
+  Toolbar,
+  lib,
+} from 'svag'
 ```
 
-### `svag(`<br/>&nbsp;&nbsp;`arg1: string,`<br/>&nbsp;&nbsp;`arg2?: boolean,`<br/>`): void`
+## `Window(`<br/>&nbsp;&nbsp;`options: WindowOptions,`<br/>`): void`
 
-Call this function to get the result you want.
+Creates a [`@svag/window`](https://github.com/svagco/window).
 
-```js
-/* yarn example/ */
-import svag from '@svag/svag'
-
-(async () => {
-  await svag()
-})()
-```
+<img src="https://raw.github.com/svagco/svag/master/images/window.svg?sanitize=true">
 
 ## TODO
 
-- [ ] Add a new item to the todo list.
+- [ ] Fix imported SVGs to be displayed on npm for all packages.
+- [ ] Add types to the list of exported files so that they can be required here.
 
 ## Copyright
 
