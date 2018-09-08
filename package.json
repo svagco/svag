@@ -1,6 +1,6 @@
 {
   "name": "svag",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "The ultimate collection of SVaG elements.",
   "main": "build",
   "scripts": {
