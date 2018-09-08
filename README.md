@@ -12,7 +12,7 @@ yarn add -E svag
 
 - [Table Of Contents](#table-of-contents)
 - [API](#api)
-- [`Window(options: WindowOptions)`](#windowoptions-windowoptions-void)
+- [`Window(options: WindowOptions): string`](#windowoptions-windowoptions-string)
 - [TODO](#todo)
 - [Copyright](#copyright)
 
@@ -29,7 +29,7 @@ import {
 } from 'svag'
 ```
 
-## `Window(`<br/>&nbsp;&nbsp;`options: WindowOptions,`<br/>`): void`
+## `Window(`<br/>&nbsp;&nbsp;`options: WindowOptions,`<br/>`): string`
 
 Creates a [`@svag/window`](https://github.com/svagco/window).
 

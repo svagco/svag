@@ -12,7 +12,7 @@ import {
 } from 'svag'
 ```
 
-```## Window
+```## Window => string
 [
   ["options", "WindowOptions"]
 ]
