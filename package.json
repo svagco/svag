@@ -70,6 +70,6 @@
     "@svag/lib": "1.0.0",
     "@svag/shadow": "1.0.0",
     "@svag/toolbar": "1.0.0",
-    "@svag/window": "1.0.1"
+    "@svag/window": "1.0.2"
   }
 }

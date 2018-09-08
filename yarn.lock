@@ -30,9 +30,9 @@
   dependencies:
     "@svag/lib" "1.0.0"
 
-"@svag/window@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@svag/window/-/window-1.0.1.tgz#e9854ebe0ca2a9501fbfee963c2356ce1fe137d0"
+"@svag/window@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@svag/window/-/window-1.0.2.tgz#f62cb495547829a9ecef150edafaf18aa3dbb803"
   dependencies:
     "@svag/lib" "1.0.0"
     "@svag/shadow" "1.0.0"
