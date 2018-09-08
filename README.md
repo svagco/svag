@@ -53,7 +53,7 @@ __<a name="windowoptions">`WindowOptions`</a>__
 | noShadow | _boolean_ | Disable the dropping shadow. | `false` |
 | minify | _boolean_ | Remove whitespace between tags (e.g., between `>` and `<`). If there are any problems with generated SVG, this could be disabled. | `true` |
 
-<img src="https://raw.github.com/svagco/svag/master/images/window.svg?sanitize=true">
+<img src="https://raw.github.com/svagco/svag/master/images/no-shadow.svg?sanitize=true"><img src="https://raw.github.com/svagco/svag/master/images/window.svg?sanitize=true">
 
 ## TODO
 
