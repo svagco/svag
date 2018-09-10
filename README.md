@@ -18,20 +18,28 @@ yarn add -E svag
   * [`ShadowOptions`](#shadowoptions)
 - [`Toolbar(options: ToolbarOptions): string`](#toolbaroptions-toolbaroptions-string)
   * [`ToolbarOptions`](#toolbaroptions)
+- [Lib](#lib)
+  * [Elements](#elements)
 - [TODO](#todo)
 - [Copyright](#copyright)
 
 ## API
 
-The package is available by importing its named exports.
+The package is available by importing its named exports which are the components. The library methods can be imported from `svag/lib` alias.
 
 ```js
 import {
   Window,
   Shadow,
   Toolbar,
-  lib,
 } from 'svag'
+import {
+  makeElement,
+  roundedCorner,
+  minify
+  svg,
+  rect,
+} from 'svag/lib'
 ```
 
 ## `Window(`<br/>&nbsp;&nbsp;`options: WindowOptions,`<br/>`): string`
@@ -89,6 +97,19 @@ __<a name="toolbaroptions">`ToolbarOptions`</a>__: Options to make a toolbar.
 | ---- | ---- | ----------- | ------- |
 | __width*__ | _number_ | The width of the toolbar. | - |
 | title | _string_ | An optional title to display in the toolbar. | - |
+
+## Lib
+
+The [`@svag/lib`](https://github.com/svagco/lib) has a number of methods to create dynamically generated SVGs.
+
+1. `makeElement`: create a new SVG element.
+1. `roundedCorner`: write a C directive of the path to make a rounded corner, e.g., to create rectangles with only some rounded corners.
+1. `minify`: remove whitespace between tags.
+
+**<a name="elements">Elements</a>**: For easier access to elements, some elements were converted into methods, along with their documentation.
+
+1. `svg`: make a new complete `svg` image.
+1. `react`: draw a rectangle.
 
 ## TODO
 

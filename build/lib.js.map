@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/lib.js"],"names":[],"mappings":"AAAA,MAAM,CAAC;EACL,WAAW,CAAC,CAAC,MAAM,CAAC,CAAC,aAAa,CAAC,CAAC,IAAI,CAAC,CAAC,GAAG;AAC/C,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,IAAI,CAAC,GAAG","file":"lib.js","sourcesContent":["export {\n  makeElement, minify, roundedCorner, rect, svg,\n} from '@svag/lib'"]}
