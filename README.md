@@ -110,7 +110,7 @@ The [`@svag/lib`](https://github.com/svagco/lib) has a number of methods to crea
 
 - `svg`: make a complete `svg` image.
 - `react`: draw a rectangle.
-    <br/><img alt="VS Code Autocomplete Hints." src="https://raw.github.com/svagco/svag/master/images/hints.png">
+    <br/><br/><img alt="VS Code Autocomplete Hints." src="https://raw.github.com/svagco/svag/master/images/hints.png">
 
 ## TODO
 
