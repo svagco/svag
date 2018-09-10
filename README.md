@@ -36,6 +36,8 @@ import {
 
 Creates a [`@svag/window`](https://github.com/svagco/window).
 
+<img alt="A window with a shadow." src="https://raw.github.com/svagco/svag/master/images/no-shadow.svg?sanitize=true"><img alt="A window without a shadow." src="https://raw.github.com/svagco/svag/master/images/window.svg?sanitize=true">
+
 __<a name="windowoptions">`WindowOptions`</a>__
 
 | Name | Type | Description | Default |
@@ -55,11 +57,11 @@ __<a name="windowoptions">`WindowOptions`</a>__
 | noShadow | _boolean_ | Disable the dropping shadow. | `false` |
 | minify | _boolean_ | Remove whitespace between tags (e.g., between `>` and `<`). If there are any problems with generated SVG, this could be disabled. | `true` |
 
-<img src="https://raw.github.com/svagco/svag/master/images/no-shadow.svg?sanitize=true"><img src="https://raw.github.com/svagco/svag/master/images/window.svg?sanitize=true">
-
 ## `Shadow(`<br/>&nbsp;&nbsp;`options: ShadowOptions,`<br/>`): { translate: string, shadow: string }`
 
 Creates a [`@svag/shadow`](https://github.com/svagco/shadow). It will be able to resize on mobile Safari without the window's contents loosing quality.
+
+<img alt="An SVG shadow element." src="https://raw.github.com/svagco/svag/master/images/shadow.svg?sanitize=true">
 
 __<a name="shadowoptions">`ShadowOptions`</a>__: Options to generate macOS like  shadow using a blur filter.
 
@@ -71,8 +73,6 @@ __<a name="shadowoptions">`ShadowOptions`</a>__: Options to generate macOS like 
 | ry | _number_ | The `y` corner radius of a window which drops the shadow. | `6` |
 | offsetY | _number_ | The offset from the top of the window. | `25` |
 | stdDeviation | _number_ | The standard deviation for the blur. It will spread twice this distance in each direction. | `27.5` |
-
-<img alt="An SVG shadow element." src="https://raw.github.com/svagco/svag/master/images/shadow.svg?sanitize=true">
 
 ## TODO
 
