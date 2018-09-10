@@ -16,6 +16,8 @@ yarn add -E svag
   * [`WindowOptions`](#windowoptions)
 - [`Shadow(options: ShadowOptions): { translate: string, shadow: string }`](#shadowoptions-shadowoptions--translate-string-shadow-string-)
   * [`ShadowOptions`](#shadowoptions)
+- [`Toolbar(options: ToolbarOptions): string`](#toolbaroptions-toolbaroptions-string)
+  * [`ToolbarOptions`](#toolbaroptions)
 - [TODO](#todo)
 - [Copyright](#copyright)
 
@@ -59,7 +61,7 @@ __<a name="windowoptions">`WindowOptions`</a>__
 
 ## `Shadow(`<br/>&nbsp;&nbsp;`options: ShadowOptions,`<br/>`): { translate: string, shadow: string }`
 
-Creates a [`@svag/shadow`](https://github.com/svagco/shadow). It will be able to resize on mobile Safari without the window's contents loosing quality.
+Creates a [`@svag/shadow`](https://github.com/svagco/shadow). It will be able to [resize on mobile Safari](https://github.com/svagco/shadow#direct-vs-standalone) without the window's contents loosing quality.
 
 <img alt="An SVG shadow element." src="https://raw.github.com/svagco/svag/master/images/shadow.svg?sanitize=true">
 
@@ -73,6 +75,20 @@ __<a name="shadowoptions">`ShadowOptions`</a>__: Options to generate macOS like 
 | ry | _number_ | The `y` corner radius of a window which drops the shadow. | `6` |
 | offsetY | _number_ | The offset from the top of the window. | `25` |
 | stdDeviation | _number_ | The standard deviation for the blur. It will spread twice this distance in each direction. | `27.5` |
+
+## `Toolbar(`<br/>&nbsp;&nbsp;`options: ToolbarOptions,`<br/>`): string`
+
+Returns a new [`@svag/toolbar`](https://github.com/svagco/toolbar) either with or without a title.
+
+<img alt="A macOS toolbar." src="https://raw.github.com/svagco/svag/master/images/toolbar.svg?sanitize=true">
+<img alt="A macOS toolbar without a title." src="https://raw.github.com/svagco/svag/master/images/toolbar-no-title.svg?sanitize=true">
+
+__<a name="toolbaroptions">`ToolbarOptions`</a>__: Options to make a toolbar.
+
+| Name | Type | Description | Default |
+| ---- | ---- | ----------- | ------- |
+| __width*__ | _number_ | The width of the toolbar. | - |
+| title | _string_ | An optional title to display in the toolbar. | - |
 
 ## TODO
 
